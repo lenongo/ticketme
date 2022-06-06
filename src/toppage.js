@@ -22,6 +22,9 @@ import Title from './components/title';
 import Detail from './components/detail';
 import Table from '@mui/material/Table';
 import Tablebody from '@mui/material/TableBody';
+import Finish from './components/finish';
+import Tweet from './components/tweetbutton';
+
 
 
 const toppage = () => {
@@ -54,8 +57,14 @@ const toppage = () => {
                             <Footer />
                         </>} />
                         <Route path="/table" element={<MTable />} />
+                        <Route path="/finish" element={<>
+                        <Header />
+                        <div><Finish/></div>
+                        <Footer />
+                        </>} />
                         <Route path="/wallet" element={<><Header /><div className="Wallet"><Wallet /></div><Footer /></>} />
                         <Route path="/account" element={<><Header /><div className="Acoount"><Account /></div><Footer /></>} />
+                        <Route path="/tweet" element={<><Header /><div className="Tweet"><Tweet /></div><Footer /></>} />
                     </Routes>
                 </BrowserRouter>
             </div>

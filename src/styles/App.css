@@ -313,6 +313,10 @@ h2 p {
   padding: 20px 0 0 0;
 }
 
+.finish{
+  height: 50vh;
+}
+
 /* KeyFrames */
 @-webkit-keyframes gradient-animation {
   0% {
