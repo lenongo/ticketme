@@ -1,0 +1,508 @@
+	
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+  background:#000;
+  color:#fff;
+  scroll-behavior: smooth;
+}
+
+.App::-webkit-scrollbar{
+  display: none;
+}
+
+.tabledesign {
+  width:100%;
+  
+  text-align: left;
+  border-collapse: collapse;
+  border-spacing: 0;
+ }
+ 
+ 
+ 
+ .tabledesign td {
+  margin: 20px 15px 15px 15px;
+  padding:15px;
+  border-bottom: solid 1px #eeeeee;
+  
+ }
+
+
+.App {
+  max-width: 428px;
+  height: 100vh;
+  background: #000;
+  overflow: scroll;
+  text-align: center;
+  margin: auto;
+  color:#fff;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+}
+
+.container {
+  margin: 0;
+  max-width: 428px;
+  margin: auto;
+}
+
+
+
+.header {
+  background: #000;
+}
+
+.header-Ticketme {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Logo {
+  height: 60px;
+  width: 120px;
+  margin: 10px;
+}
+
+.tweetbutton{
+  text-align:right;
+  margin-top:-15px;
+  margin-bottom:0;
+  margin-right:5px;
+}
+
+.tweetbutton img{
+  width:70px;
+}
+
+.tweetbutton a{
+  font-size:16px;
+  color:#000000;
+  text-decoration:none; 
+}
+
+.header-Icon {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.header-Icon img {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+.btn,
+a.btn,
+button.btn {
+  position: fixed;
+  font-size: 1.6rem;
+  bottom: 10px;
+  padding: 0 1rem 1rem 0;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-decoration: none;
+  color: #212529;
+  margin: 0 auto;
+}
+
+@media (max-width: 428px) {
+  .btn,
+  a.btn,
+  button.btn {
+    right: 5px;
+  }
+}
+
+@media (min-width: 428px) {
+  .btn,
+  a.btn,
+  button.btn {
+    right: calc(50% - 214px);
+  }
+}
+
+
+
+a.btn--circle {
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  background: #fff;
+  border-radius: 50%;
+}
+
+a.btn--circle a {
+  line-height: 60px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  color: #000;
+  background:#fff;
+}
+
+a.btn--circle:hover a {
+  line-height: 55px;
+  color: #000;
+}
+
+.title {
+  text-align: left;
+  padding: 10px;
+  font-size: 22px;
+  line-height: 1.1em;
+}
+
+.titlecontainer{
+  width:100%;
+}
+
+
+.titleh1{
+  text-align:left;
+  font-size:22px;
+  line-height:26px;
+  color:#fff;
+  margin:15px;
+}
+
+
+
+
+
+a.btn--circle a {
+  line-height: 60px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  color: #000;
+  background:#fff;
+}
+
+a.btn--circle:hover a {
+  line-height: 55px;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+.border {
+  margin: 15px 15px 5px 15px;
+  border-width: 0.5px;
+  
+}
+
+.title-border {
+  margin: 20px 15px 15px 15px;
+  border-width: 0.5px;
+  border-image: linear-gradient(to right, #ff3cac 40%, #562b7c 100%);
+  border-image-slice: 1;
+}
+  
+
+.footer-border {
+  margin: 20px 15px 15px 15px;
+  color:#C0C0C0;
+  border-width: 0.5px;
+}
+
+.Overview {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 40px;
+  margin: 0;
+}
+
+.information {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-align:center;
+}
+
+h2 p {
+  width: 50px;
+  height: 45px;
+  display: flex;
+}
+
+.detail-content {
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.detail-1 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 13px;
+  color: #a9a9a9;
+  margin: 0;
+}
+
+.detail-2 {
+  text-align: left;
+  margin: 0;
+  color:#fff;
+}
+
+.img {
+  max-width: 100%;
+  padding-bottom: 0;
+}
+
+.Table {
+  margin: 10px;
+  color:#fff;
+}
+
+.Button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.Button {
+  width: 60%;
+  background: #f0f0f0;
+  border-radius: 5px;
+  padding: 0px;
+}
+
+.demo-simple-select-label {
+  padding: 0px;
+}
+
+.Title_pur {
+  font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.Ticket-content {
+  display: flex;
+  text-align: left;
+  margin-left: 6%;
+  margin-top: 5px;
+}
+
+.Ticket-content-left {
+  display: block;
+  width: 15%;
+}
+
+.Ticket-content-right {
+  display: block;
+  width: 73%;
+  float: left;
+}
+
+.Ticket-content1 {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid;
+  text-align: center;
+  width: 80%;
+}
+
+.Ticket-content2 {
+  font-size: 15px;
+  margin: 0;
+}
+
+.sub-content {
+  font-size: 12px;
+  margin: 3;
+}
+
+.SubTitle_pur {
+  font-size: 14px;
+  margin-top: 0%;
+  margin: 5px;
+}
+
+.Ticket_buy{
+  width:100%;
+}
+
+
+.NFTIcon {
+  display: flex;
+  align-items: center;
+  justify-content: safe center;
+  background: #000;
+
+}
+
+
+
+.icon-boar {
+  width: 150px;
+  height: 150px;
+  margin: 20px 15px 20px 10px;
+}
+
+.icon-deer {
+  width: 150px;
+  height: 150px;
+  margin:20px 10px 20px 15px;
+}
+
+.cta-button {
+  width: 55%;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(40%, #ff3cac),
+    to(#562b7c)
+  );
+  background-image: -webkit-linear-gradient(left, #ff3cac 40%, #562b7c 100%);
+  background-image: linear-gradient(90deg, #ff3cac 40%, #562b7c 100%);
+  color: #fff;
+  padding: 6px;
+  font-size: 15px;
+  margin: 25px;
+  border-radius: 100vh;
+  font-weight:bold;
+}
+
+
+
+
+.footer-container {
+  bottom: 0;
+  margin:auto;
+  background:#000;
+}
+
+.Wallet {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Walletcom1 {
+  justify-content: left;
+  align-items: baseline;
+}
+
+.MyPage {
+  height: 50vh;
+  width: 100%;
+}
+
+.menu{
+  margin-top:100px;
+}
+
+.footer01 {
+  color: #fff;
+  background: #000;
+  text-align: center;
+  padding: 30px;
+  margin-top: 20px;
+  bottom:0;
+}
+
+.footer01 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer01 a:hover {
+  text-decoration: underline;
+}
+
+.footer01 .menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer01 .menu li {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.footer01 .copyright {
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+.finish0{
+  font-size:24px;
+}
+
+.finish2{
+  font-size:16px;
+  text-align:left;
+  padding:15px;
+}
+
+
+
+
+
+
+
+/* KeyFrames */
+@-webkit-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+

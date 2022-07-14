@@ -1,0 +1,386 @@
+	
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+
+.search-box{
+    margin-left:20px;
+    text-align:left;
+    margin-top:10px;
+    margin-bottom:40px;
+}
+
+
+.search_container{
+    border:1px #fff;
+}
+  .search_container input[type="text"]{
+    background: #fff;
+    color:#000;
+    border: none;
+    height: 30px;
+    width:calc(85% - 30px);
+  }
+  .search_container input[type="text"]:focus {
+    outline: 0;
+  }
+  .search_container input[type="submit"]{
+    cursor: pointer;
+
+    color: #fff;
+    outline : none;
+    width: 50px;;
+    height: 32px;
+  }
+
+  
+.topcontent{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin:15px 15px;
+    background:#000;
+    padding:10px;
+    border:1px solid #b5b5b5;
+    border-radius: 10px;
+    color:#fff;
+    
+}
+
+.topcontent:hover {
+  transform: translateY(1px);
+  transition: all 0.3s 0s ease;
+}
+
+.topcontent2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin:15px 15px;
+    background:#000;
+    padding:10px;
+    color:#fff;
+    
+}
+
+
+
+
+
+.event-leftbox{
+    display:block;
+    width:15%;
+    float:left;
+    text-align:right ;
+    border-right: 1px solid #000;
+    margin-right:15px;
+    padding-right:10px;
+    padding-top:10px;
+
+}
+
+.event-month{
+    font-size:12px;
+    margin-top: 0px;
+    color:#fff;
+}
+
+.event-day{
+    font-weight:bold;
+    font-size:20px;
+    margin-top: -18px;
+    margin-bottom: 0px;
+    color:#fff;
+}
+
+.event-rightbox{
+    display:block;
+    width:calc(85% - 26px);;
+    float:left;
+    text-align:left;
+    color:#fff;
+    padding-top:12px;
+}
+
+.event-time{
+    font-size:12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight:bold;
+    color:#fff;
+}
+.event-place{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size:12px;
+    line-height:20px;
+    color:#BFC5CA;
+}
+
+.event-title{
+    -webkit-transition: all .3s;
+transition: all .2s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height:20px;
+    color:#fff;
+}
+
+
+.event-title:hover{
+  text-align:left;
+  color: #ff7dc7;
+
+}
+
+.event-host{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size:12px;
+    line-height:20px;
+    color:#BFC5CA;
+}
+
+
+
+.event-image{
+    width:80%;
+    margin-left:20%;
+    height: 60px;
+    object-fit: cover;
+    margin-top:10px;
+    padding-bottom:5px;
+}
+
+
+.Link{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.date{
+    flex-wrap: wrap;
+    padding-left: 2vh;
+    min-width: 5vw;
+    width: 10%;
+}
+
+.maincontent{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2vh;
+    position: relative;
+    width: 50%;
+}
+
+.img_container{
+    width: 40%;
+}
+
+.sentense{
+    margin: 0%;
+    padding: 0%;
+    font-size: 2vh;
+}
+
+.one{
+    margin: 0%;
+    padding: 0%;
+    font-size: 3vh;
+
+}
+
+.img_file{
+    width: 80%;
+    background-color: azure;
+}
+
+
+.MyPage h1{    
+    font-size:30px;
+}
+
+
+
+
+
+.your-information{
+    text-align:left;
+    margin:0 20px;
+    font-size:22px;
+    margin-top:30px;
+}
+
+
+.wallet-address{
+    margin:0 25px;
+    text-align:left;
+    word-break: break-all;
+}
+.wallet-address a{
+    font-size:14px;
+}
+
+.top-add{
+    text-decoration:none;
+}
+
+
+.top-add-sentence0{
+    font-weight:bold;
+    font-size:50px;
+    padding:0px;
+    margin:0px;
+}
+.top-add-sentence1{
+    font-weight:bold;
+    padding:0px;
+    margin:10px;
+}
+.top-add-sentence2{
+    text-decoration:none;
+    text-align:left;
+    font-size:12px;
+    line-height:20px;
+    margin:0px;
+}
+
+
+
+.cta-button2 {
+
+    width:calc(50% - 20px);
+    position:relative;
+    margin:10px 5px 10px 10px;
+padding:10px;
+border-radius:10px;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        color-stop(40%, #2bc4ff),
+        to(#008abe)
+      );
+      background-image: -webkit-linear-gradient(left, #2bc4ff 40%, #008abe 100%);
+      background-image: linear-gradient(90deg, #2bc4ff 40%, #008abe 100%);}
+
+
+.cta-button2 a {
+    width: 55%;
+    text-decoration:none;
+    color: #fff;
+    font-size: 15px;
+    font-weight:bold;
+    background:none;
+  }
+
+  .cta-button3 {
+    width:calc(50% - 20px);
+    position:relative;
+    margin:10px 10px 10px 5px;
+padding:10px;
+border-radius:10px;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        color-stop(40%, 09f86a),
+        to(#059f44)
+      );
+      background-image: -webkit-linear-gradient(left, #09f86a 40%, #059f44 100%);
+      background-image: linear-gradient(90deg, #09f86a 40%, #059f44 100%);}
+
+
+.cta-button3 a {
+    width: 55%;
+    text-decoration:none;
+    color: #fff;
+    font-size: 15px;
+    font-weight:bold;
+    background:none;
+  }
+
+
+
+  .instruction-how-to-buy{
+    margin-left:10px;
+  margin-right:10px;
+  }
+
+  .instruction-how-to-buy a{
+    text-align:left;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.instruction-how-to-buy li{
+    text-align:left;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+
+  .instruction-how-to-buy p{
+      text-align:left;
+      margin-left:10px;
+      font-size:20px;
+      font-weight:bold;
+  }
+
+
+
+
+
+  .instruction-image{
+    width:70%;
+    text-align:center;
+    margin-top:10px;
+    margin-left:15%;
+}
+
+.instruction-how-to-buy li, ol {
+
+        text-align:left;
+        margin-left:10px;
+  }
+
+  .aboutnftticket {
+      width:40%;
+      margin-left:20px;
+      margin-bottom:-15px;
+  }
+.aboutnftticket h6 {
+    position: relative;
+    padding: 0.6em;
+    background: #fff;
+    border-radius: 5px;
+    color:#000;
+    font-size:16px;
+
+  }
+  
+  .aboutnftticket h6:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 65%;
+    border: 12px solid transparent;
+    border-top: 12px solid #fff;
+    width: 0;
+    height: 0;
+  }
+
+
+  .aboutnftticket:hover {
+
+  transform: translateY(2px);
+  transition: all 0.3s 0s ease;
+}
+
+  

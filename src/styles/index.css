@@ -1,0 +1,24 @@
+	
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+
+body,
+html {
+  margin: 0;
+  color:#fff;
+}
+
+
+body {
+  padding: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color:#fff;
+
+}
+
+code {
+  font-family: 'Noto Sans JP', sans-serif;
+  color:#fff;
+}
